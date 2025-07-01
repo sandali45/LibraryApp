@@ -1,18 +1,23 @@
-## Getting Started
+# Library Management System (CLI) - Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A simple **command-line interface (CLI)** Library Management application built in **Java** showcasing **Object-Oriented Programming (OOP)** principles and **file handling** for data persistence.
 
-## Folder Structure
+## Features
 
-The workspace contains two folders by default, where:
+- Add new books with ID, title, and author
+- View all books with availability status
+- Borrow and return books
+- Persistent storage of books data using a text file (`books.txt`)
+- User-friendly CLI menu for interaction
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## Technologies Used
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+- OOP Concepts: Classes, Encapsulation, Methods
+- File I/O: Reading and writing text files
+- Collections: ArrayList for book management
+- Exception Handling
+- Scanner for CLI input
 
-## Dependency Management
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+
