@@ -1,7 +1,7 @@
 public class Book {
     private String id;
     private String title;
-    private String author;
+    private String authar;
     private boolean isBorrowed;
 
     public Book(String id, String title, String author) {
